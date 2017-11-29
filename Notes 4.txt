@@ -1,0 +1,133 @@
+HTML List
+<ul style="list-style-type:circle">
+	<li>example of unordered list</li>
+	<li>bullet can be changed to disc circle square or none with style</li>
+</ul>
+
+<ol type="1">
+	<li>example or ordered list</li>
+	<li>type set order to 1, A, a, I, or i</li>
+</ol>
+
+<dl>
+	<dt>example of description list, dt defines the name</dt>
+	<dd>describes the term</dd>
+</dl>
+
+<!--horizontal lists can be made many ways, example of menu
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+-->
+
+Block-level elements
+<!--alawys starts on a new line and takes full width
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<dd>
+<div>
+<dl>
+<dt>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>
+<h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<output>
+<p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video>
+-->
+
+Inline Elements
+<!--does not start on new line, and only takes as much width as necessary
+<a>
+<abbr>
+<acronym>
+<b>
+<bdo>
+<big>
+<br>
+<button>
+<cite>
+<code>
+<dfn>
+<em>
+<i>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<object>
+<q>
+<samp>
+<script>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<textarea>
+<time>
+<tt>
+<var>
+-->
+
+<div>container for other html elements</div>
+<span>container for text</span>
+

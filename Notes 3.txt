@@ -1,0 +1,109 @@
+HTML Links
+<!--html links are hyperlinks-->
+<a href="https://www.w3schools.com/html/">link with full address</a>
+<a href="background.jpg">local link, can be used for linkt o same website</a>
+
+<!--change default text color-->
+<style>
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+Target Attribute
+<!--target specifies where to open the document:
+_blank - new window
+_self - same window
+_parent - in parent frame
+_top - in full body of window
+framename - opens in a named frame
+-->
+
+Image as Links
+<a href="google.com">
+	<img src="background.jpg" alt="Image as a link" style="width:42px;height:42px;border:0;">
+</a>
+
+Bookmarks
+<!--used for long webpages, or to jump to specific parts. Create then link-->
+<h1 id="Bottom">Bottom of page</h1>
+<a href="#Bottom">Jumps to bottom</a>
+
+Images
+<img src="background.jpg" alt="example image element">
+<img src="background.jpg" alt="example with inline sizing" style="width:100px;height:100px;">
+<!--CSS float can place images to left or right of text-->
+<h1><img src="background.jpg" alt="example with float" style="float:left;float:right;"></h1>
+
+Image Maps
+<!--use map tag to define an image-map, which is an image with clickable area-->
+<img src="background.jpg" alt="example image map" usemap="#examplemap">
+<map name="examplemap">
+	<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+	<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+	<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+Background Images
+<body style="background-img:url('background.jpg')">example background image</body>
+
+Picture Element
+<!--contains source elements with different sources for the browser to pick. Picks most applicable source-->
+<picture>
+	<source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+	<source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+	<img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+HTML Table
+<!--style for a table can be specialized with an id-->
+<table style="width:100%">
+	<caption>adds a caption</caption>
+	<tr> <!--table row-->
+		<th>table header</th>
+		<th colspan="2">table that spans columns</th>
+		<th rowspan="2">table that spans rows</th>
+		<td>table cell</td>
+	</tr>
+</table>
+
+CSS Border for Table
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse; <!--use for single border-->
+}
+th, td {
+	padding: 15px;
+	text-align: left;
+	border-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+

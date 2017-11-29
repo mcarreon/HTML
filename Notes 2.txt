@@ -1,0 +1,55 @@
+HTML Styling with CSS
+<!--stands for Cascading Style Sheets-->
+<!--describes how the elements are to be displayed-->
+
+<!--can be implemented inline, internal, and external-->
+<h1 style="color:blue;">Example of inline CSS</h1>
+
+<!--internal css defines style for HTML page, defined in head section of HTML page, within a <style> element-->
+<head>
+<style>
+	body {background-color: red;}
+	h1 	 {color: blue;}
+</style>
+</head>
+
+<!--external CSS can be made in a text.css file-->
+<link rel="stylesheet" href="styles.css"> <!--add style sheet to head element-->
+<!--example of css file
+body {
+	background-color: red;
+}
+h1 {
+	color: blue;
+}
+-->
+
+CSS Fonts, Borders, Padding
+<style>
+h1 {
+	color: blue;
+	font-family: verdana;
+	font-size: 300%;
+	
+	border: 1px solid red;
+	padding: 30px; <!--space between text and border-->
+	margin: 50px; <!--space outside the border--> 
+}
+</style>
+
+id Attribute
+<!--should be unique, should only be used to select on element--> 
+<h1 id="testid">test</h1>
+#testid {
+	color:blue;
+}
+
+class Attribute
+<!--used to define style for set of elements, ie form a grouping-->
+<h1 class="test"></h1>
+h1.test {
+	color: red;
+}
+
+Import external style sheets
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
