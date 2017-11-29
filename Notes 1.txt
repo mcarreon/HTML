@@ -1,0 +1,81 @@
+HTML Documents
+<!DOCTYPE html> <!--must start with-->
+<html> <!--begins and ends document--> 
+<body> <!--contains visible part of document-->
+
+<h1>most important</h1>
+<h2>headings</h2>
+<h3>headings</h3>
+<h6>least important</h6>
+
+<p>paragraph tag</p>
+<a href="google.com">link tag, link destination is specified in the href attribute</a>
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="100"> <!-- image tag, source src, alternative text alt-->
+<br> <!-- line break - example of empty elemnt that does not have an end tag, does not need to be closed unless XML-->
+
+</body>
+</html> 
+
+HTML Attributes
+<!-- they provide additional information, and is always used in the start tag, and come in name="value" pairs -->
+<img src="example"> <!--Source defines the filename-->
+<img src="example" width="500" height="600"> <!--specifies width and height-->
+<img src="example" alt="alternative text when image cannot be displayed, or if the image does not exist">
+<p style="color:gray">style specifies the styling of an element</p>
+<html lang="en-US"> <!--language species document language, important for accesibility and search engines--></html>
+<p title="title">title value is displayed as a tooltip when moused over</p>
+<!--lower cased attributes and quotes are recommended-->
+
+HTML Headings
+<!--Search engines utilizes headings to index content of web page. Headings show the document structure-->
+<!--Dont use headings for big or bold-->
+<h1 style="font-size:60px;">Each heading has a default style, but each size can be specified</h1>
+<hr> <!-- defines a thematic break, displayed as a horizontal rule, used to define change or separate content--> 
+
+HTML Head Element
+<head>Container for metadata, which is data about HTML document, and is not displayed. placed between html and body tag</head>
+
+HTML Paragraph
+<p>defines a paragraph, browsers automatically add white space before and after</p>
+
+HTML Line Break
+<p>Line<br>breakd</p> <!--defines a line break without starting a new paragraph, can be inserted into text--> 
+<pre>defines prefprmatted text, has a fixed width and preserves spaces and line breaks</pre> 
+
+
+HTML Styles Modifiers
+<h1 style="property:value;">CSS property, CSS value</h1>
+<h1 style="background-color:blue;">background color</h1>
+<h1 style="color:blue;">text color</h1>
+<h1 style="font-family:'times new roman';">defines font</h1>
+<h1 style="font-size:100%;">defines font size</h1>
+<h1 style="text-align:center;">defines horizontal text alignment</h1>
+
+HTML Formatting Elements
+<b>bold</b>
+<strong>important</strong>
+<i>italic</i>
+<em>emphazised</em>
+<mark>marked</mark>
+<small>small text</small> 
+<del>deleted text</del>
+<ins>insert text</ins>
+<sub>subscript</sub>
+<sup>superscript</sup>
+
+HTML Quotation and Citation
+<q>defines a short quotation, quation marks usually inserted automatically</q>
+<blockquote>defines a section quoted from another source, usually indented</blockquote>
+<abbr title="a big big red">defines abbreviation or acronym</abbr>
+<address>defines contact information, and is usually shown in italic</address>
+<cite>defines title of a work</cite>
+<bdo dir="rtl">Overrides text direction</bdo>
+
+HTML Color
+<!--color can be specified by name, and HTML supports 140 names-->
+<h1 style="background-color:DodgerBlue;">set background color</h1>
+<h1 style="color:Tomato;">sets text color</h1>
+<h1 style="border:2px solid Tomato;">Sets border color and width</h1>
+<!--color can be represented in RGB HEX RGBA and HSLA-->
+
+
